@@ -1,0 +1,191 @@
+[ @file = "Rez.mc"; @line = 1; ]
+module Rez {
+    [ @file = "Rez.mc"; @line = 1; ]
+    <init> {
+    }
+    [ @file = "Rez.mc"; @line = 2; ]
+    module Drawables {
+        [ @file = "Rez.mc"; @line = 2; ]
+        <init> {
+        }
+        [ @file = "Rez.mc"; @line = 3; ]
+        import Toybox.Lang;
+        [ @file = "Rez.mc"; @line = 4; @position = 19; initialized = true; ]
+        var LauncherIcon as Symbol;
+    }
+    [ @file = "Rez.mc"; @line = 6; ]
+    module Fonts {
+        [ @file = "Rez.mc"; @line = 6; ]
+        <init> {
+        }
+    }
+    [ @file = "Rez.mc"; @line = 8; ]
+    module JsonData {
+        [ @file = "Rez.mc"; @line = 8; ]
+        <init> {
+        }
+    }
+    [ @file = "Rez.mc"; @line = 10; ]
+    module Layouts {
+        [ @file = "Rez.mc"; @line = 10; ]
+        <init> {
+        }
+        [ @file = "Rez.mc"; @line = 11; ]
+        import Toybox.Lang;
+        [ @file = "Rez.mc"; @line = 12; ]
+        using Toybox.WatchUi;
+        [ @file = "Rez.mc"; @line = 13; ]
+        using Toybox.WatchUi as :Ui;
+        [ @file = "Rez.mc"; @line = 14; ]
+        using Toybox.Graphics;
+        [ @file = "Rez.mc"; @line = 15; ]
+        using Toybox.Graphics as :Gfx;
+        [ @file = "Rez.mc"; @line = 17; ]
+        function MissingDeviceLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+Rez_mc_17_79_start:
+[ "Rez.mc" 19 0 ]
+            [ "Rez_mc_17_79_start" "Rez_mc_17_79_stop" ]
+            %rez_cmp_local_text_7901854261.1 = local;
+            %tmp.3 = getm $.Toybox.WatchUi;
+            %tmp.4 = getv function ? %tmp.3 :Text;
+            %tmp.5 = newd 6;
+            %tmp.7 = const :color;
+            %tmp.8 = getm $.Toybox.Graphics;
+            %tmp.9 = getv %tmp.8 :COLOR_RED;
+            %tmp.10 = dup %tmp.5;
+            %tmp.11 = aputv %tmp.10 %tmp.7 %tmp.9;
+            %tmp.13 = const :locX;
+            %tmp.14 = 416;
+            %tmp.15 = 0.5;
+            %tmp.16 = mul %tmp.14 %tmp.15;
+            %tmp.17 = dup %tmp.11;
+            %tmp.18 = aputv %tmp.17 %tmp.13 %tmp.16;
+            %tmp.20 = const :locY;
+            %tmp.21 = 416;
+            %tmp.22 = lgetv %dc;
+            %tmp.23 = getv function %tmp.22 :getFontHeight;
+            %tmp.24 = getm $.Toybox.Graphics;
+            %tmp.25 = getv %tmp.24 :FONT_MEDIUM;
+            %tmp.26 = invoke %tmp.22 %tmp.23(%tmp.25);
+            %tmp.27 = sub %tmp.21 %tmp.26;
+            %tmp.28 = 0.5;
+            %tmp.29 = mul %tmp.27 %tmp.28;
+            %tmp.30 = dup %tmp.18;
+            %tmp.31 = aputv %tmp.30 %tmp.20 %tmp.29;
+            %tmp.33 = const :text;
+            %tmp.34 = getm $;
+            %tmp.35 = getv %tmp.34 :Rez;
+            %tmp.36 = getv %tmp.35 :Strings;
+            %tmp.37 = getv %tmp.36 :no_device_prompt;
+            %tmp.38 = dup %tmp.31;
+            %tmp.39 = aputv %tmp.38 %tmp.33 %tmp.37;
+            %tmp.41 = const :justification;
+            %tmp.42 = getm $.Toybox.Graphics;
+            %tmp.43 = getv %tmp.42 :TEXT_JUSTIFY_CENTER;
+            %tmp.44 = dup %tmp.39;
+            %tmp.45 = aputv %tmp.44 %tmp.41 %tmp.43;
+            %tmp.47 = const :font;
+            %tmp.48 = getm $.Toybox.Graphics;
+            %tmp.49 = getv %tmp.48 :FONT_MEDIUM;
+            %tmp.50 = dup %tmp.45;
+            %tmp.51 = aputv %tmp.50 %tmp.47 %tmp.49;
+            %tmp.1 = newc %tmp.4 (%tmp.51);
+            lputv %rez_cmp_local_text_7901854261.1 %tmp.1;
+[ "Rez.mc" 21 8 ]
+            %tmp.52 = newa Array<WatchUi.Drawable> 1;
+            %tmp.54 = lgetv %rez_cmp_local_text_7901854261.1;
+            %tmp.55 = dup %tmp.52;
+            %tmp.56 = aputv %tmp.55 0 %tmp.54;
+            ret %tmp.56;
+Rez_mc_17_79_stop:
+        }
+        [ @file = "Rez.mc"; @line = 25; ]
+        using Toybox.WatchUi;
+        [ @file = "Rez.mc"; @line = 26; ]
+        using Toybox.WatchUi as :Ui;
+        [ @file = "Rez.mc"; @line = 27; ]
+        using Toybox.Graphics;
+        [ @file = "Rez.mc"; @line = 28; ]
+        using Toybox.Graphics as :Gfx;
+        [ @file = "Rez.mc"; @line = 30; ]
+        function WaitingTransmissionLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+Rez_mc_30_85_start:
+[ "Rez.mc" 32 0 ]
+            [ "Rez_mc_30_85_start" "Rez_mc_30_85_stop" ]
+            %rez_cmp_local_text_1880419550.1 = local;
+            %tmp.3 = getm $.Toybox.WatchUi;
+            %tmp.4 = getv function ? %tmp.3 :Text;
+            %tmp.5 = newd 6;
+            %tmp.7 = const :color;
+            %tmp.8 = getm $.Toybox.Graphics;
+            %tmp.9 = getv %tmp.8 :COLOR_WHITE;
+            %tmp.10 = dup %tmp.5;
+            %tmp.11 = aputv %tmp.10 %tmp.7 %tmp.9;
+            %tmp.13 = const :locX;
+            %tmp.14 = 416;
+            %tmp.15 = 0.5;
+            %tmp.16 = mul %tmp.14 %tmp.15;
+            %tmp.17 = dup %tmp.11;
+            %tmp.18 = aputv %tmp.17 %tmp.13 %tmp.16;
+            %tmp.20 = const :locY;
+            %tmp.21 = 416;
+            %tmp.22 = lgetv %dc;
+            %tmp.23 = getv function %tmp.22 :getFontHeight;
+            %tmp.24 = getm $.Toybox.Graphics;
+            %tmp.25 = getv %tmp.24 :FONT_MEDIUM;
+            %tmp.26 = invoke %tmp.22 %tmp.23(%tmp.25);
+            %tmp.27 = sub %tmp.21 %tmp.26;
+            %tmp.28 = 0.5;
+            %tmp.29 = mul %tmp.27 %tmp.28;
+            %tmp.30 = dup %tmp.18;
+            %tmp.31 = aputv %tmp.30 %tmp.20 %tmp.29;
+            %tmp.33 = const :text;
+            %tmp.34 = getm $;
+            %tmp.35 = getv %tmp.34 :Rez;
+            %tmp.36 = getv %tmp.35 :Strings;
+            %tmp.37 = getv %tmp.36 :no_device_prompt;
+            %tmp.38 = dup %tmp.31;
+            %tmp.39 = aputv %tmp.38 %tmp.33 %tmp.37;
+            %tmp.41 = const :justification;
+            %tmp.42 = getm $.Toybox.Graphics;
+            %tmp.43 = getv %tmp.42 :TEXT_JUSTIFY_CENTER;
+            %tmp.44 = dup %tmp.39;
+            %tmp.45 = aputv %tmp.44 %tmp.41 %tmp.43;
+            %tmp.47 = const :font;
+            %tmp.48 = getm $.Toybox.Graphics;
+            %tmp.49 = getv %tmp.48 :FONT_MEDIUM;
+            %tmp.50 = dup %tmp.45;
+            %tmp.51 = aputv %tmp.50 %tmp.47 %tmp.49;
+            %tmp.1 = newc %tmp.4 (%tmp.51);
+            lputv %rez_cmp_local_text_1880419550.1 %tmp.1;
+[ "Rez.mc" 34 8 ]
+            %tmp.52 = newa Array<WatchUi.Drawable> 1;
+            %tmp.54 = lgetv %rez_cmp_local_text_1880419550.1;
+            %tmp.55 = dup %tmp.52;
+            %tmp.56 = aputv %tmp.55 0 %tmp.54;
+            ret %tmp.56;
+Rez_mc_30_85_stop:
+        }
+    }
+    [ @file = "Rez.mc"; @line = 39; ]
+    module Menus {
+        [ @file = "Rez.mc"; @line = 39; ]
+        <init> {
+        }
+    }
+    [ @file = "Rez.mc"; @line = 41; ]
+    module Strings {
+        [ @file = "Rez.mc"; @line = 41; ]
+        <init> {
+        }
+        [ @file = "Rez.mc"; @line = 42; ]
+        import Toybox.Lang;
+        [ @file = "Rez.mc"; @line = 43; @position = 19; initialized = true; ]
+        var no_device_prompt as Symbol;
+        [ @file = "Rez.mc"; @line = 44; @position = 19; initialized = true; ]
+        var AppName as Symbol;
+    }
+}
+[ @file = "Rez.mc"; @line = 1; ]
+<init> {
+}

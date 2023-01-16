@@ -1,0 +1,56 @@
+[ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_MissingWearableView.mc"; @line = 1; ]
+import Toybox.Graphics;
+[ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_MissingWearableView.mc"; @line = 2; ]
+import Toybox.WatchUi;
+[ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_MissingWearableView.mc"; @line = 4; ]
+class WBSLDC_MissingWearableView extends WatchUi.View{
+    [ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_MissingWearableView.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_MissingWearableView.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_MissingWearableView.mc"; @line = 6; ]
+    function initialize() as Void {
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_MissingWearableView_mc_6_24_start:
+[ "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_MissingWearableView.mc" 7 4 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_MissingWearableView_mc_6_24_stop:
+    }
+    [ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_MissingWearableView.mc"; @line = 11; ]
+    function onLayout(dc as Dc) as Void {
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_MissingWearableView_mc_11_38_start:
+[ "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_MissingWearableView.mc" 12 4 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        %tmp.4 = getv ? :Rez;
+        %tmp.5 = getv %tmp.4 :Layouts;
+        %tmp.6 = getv function %tmp.5 :MissingDeviceLayout;
+        %tmp.8 = lgetv %dc;
+        %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
+        invoke %tmp.1 %tmp.2(%tmp.9);
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_MissingWearableView_mc_11_38_stop:
+    }
+    [ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_MissingWearableView.mc"; @line = 18; ]
+    function onShow() as Void {
+    }
+    [ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_MissingWearableView.mc"; @line = 22; ]
+    function onUpdate(dc as Dc) as Void {
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_MissingWearableView_mc_22_38_start:
+[ "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_MissingWearableView.mc" 24 4 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :onUpdate;
+        %tmp.5 = lgetv %dc;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_MissingWearableView_mc_22_38_stop:
+    }
+    [ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_MissingWearableView.mc"; @line = 30; ]
+    function onHide() as Void {
+    }
+}
+[ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_MissingWearableView.mc"; @line = 1; ]
+<init> {
+}

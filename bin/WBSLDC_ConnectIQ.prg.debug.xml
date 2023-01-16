@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="D:\Projects\WBSLDC_ConnectIQ\manifest.xml"/>
+<pcToLineNum>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="1" lineNum="26" parent="globals" pc="268435460" symbol="getApp"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="1" lineNum="27" parent="globals" pc="268435470" symbol="getApp"/>
+<entry filename="Rez.mc" id="2" lineNum="1" parent="globals/Rez" pc="268435486" symbol="&lt;init&gt;"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_MissingWearableView.mc" id="3" lineNum="4" parent="globals/WBSLDC_MissingWearableView" pc="268435510" symbol="&lt;init&gt;"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_MissingWearableView.mc" id="5" lineNum="11" parent="globals/WBSLDC_MissingWearableView" pc="268435529" symbol="onLayout"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_MissingWearableView.mc" id="5" lineNum="12" parent="globals/WBSLDC_MissingWearableView" pc="268435531" symbol="onLayout"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_MissingWearableView.mc" id="6" lineNum="6" parent="globals/WBSLDC_MissingWearableView" pc="268435573" symbol="initialize"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_MissingWearableView.mc" id="6" lineNum="7" parent="globals/WBSLDC_MissingWearableView" pc="268435575" symbol="initialize"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_MissingWearableView.mc" id="8" lineNum="22" parent="globals/WBSLDC_MissingWearableView" pc="268435594" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_MissingWearableView.mc" id="8" lineNum="24" parent="globals/WBSLDC_MissingWearableView" pc="268435596" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="9" lineNum="5" parent="globals/WBSLDC_App" pc="268435617" symbol="&lt;init&gt;"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="10" lineNum="12" parent="globals/WBSLDC_App" pc="268435636" symbol="onStart"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="11" lineNum="20" parent="globals/WBSLDC_App" pc="268435639" symbol="getInitialView"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="11" lineNum="21" parent="globals/WBSLDC_App" pc="268435641" symbol="getInitialView"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="12" lineNum="7" parent="globals/WBSLDC_App" pc="268435682" symbol="initialize"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="12" lineNum="8" parent="globals/WBSLDC_App" pc="268435684" symbol="initialize"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="13" lineNum="16" parent="globals/WBSLDC_App" pc="268435703" symbol="onStop"/>
+<entry filename="Rez.mc" id="14" lineNum="30" parent="globals/Rez/Layouts" pc="268435706" symbol="WaitingTransmissionLayout"/>
+<entry filename="Rez.mc" id="14" lineNum="32" parent="globals/Rez/Layouts" pc="268435718" symbol="WaitingTransmissionLayout"/>
+<entry filename="Rez.mc" id="14" lineNum="34" parent="globals/Rez/Layouts" pc="268435872" symbol="WaitingTransmissionLayout"/>
+<entry filename="Rez.mc" id="15" lineNum="17" parent="globals/Rez/Layouts" pc="268435889" symbol="MissingDeviceLayout"/>
+<entry filename="Rez.mc" id="15" lineNum="19" parent="globals/Rez/Layouts" pc="268435901" symbol="MissingDeviceLayout"/>
+<entry filename="Rez.mc" id="15" lineNum="21" parent="globals/Rez/Layouts" pc="268436055" symbol="MissingDeviceLayout"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="8389346" symbol="text"/>
+<entry id="10" object="true" symbol="WBSLDC_MissingWearableView"/>
+<entry id="9" object="true" symbol="WBSLDC_App"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="7" module="true" symbol="globals/Rez/Menus"/>
+<entry id="15" method="true" symbol="WaitingTransmissionLayout"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="16" symbol="AppName"/>
+<entry id="8" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="14" method="true" symbol="MissingDeviceLayout"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389348" symbol="font"/>
+<entry id="12" module="true" symbol="Menus"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="8389349" symbol="justification"/>
+<entry id="5" module="true" symbol="globals/Rez/JsonData"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="13" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8389347" symbol="color"/>
+<entry id="11" module="true" symbol="Layouts"/>
+<entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry field="true" id="17" symbol="no_device_prompt"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268435572" name="dc" stackId="1" startPc="268435529"/>
+<entry arg="true" endPc="268435616" name="dc" stackId="1" startPc="268435594"/>
+<entry arg="true" endPc="268435888" name="dc" stackId="1" startPc="268435706"/>
+<entry endPc="268435888" name="rez_cmp_local_text_1880419550" stackId="2" startPc="268435718"/>
+<entry arg="true" endPc="268436071" name="dc" stackId="1" startPc="268435889"/>
+<entry endPc="268436071" name="rez_cmp_local_text_7901854261" stackId="2" startPc="268435901"/>
+</localVars>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="no_device_prompt"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/Rez" offset="158" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/WBSLDC_MissingWearableView" offset="237" parentId="globals" symbolId="WBSLDC_MissingWearableView" type="class"/>
+<dataEntry label="globals/WBSLDC_App" offset="316" parentId="globals" symbolId="WBSLDC_App" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="387" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="426" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="473" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="504" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="535" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="582" parentId="Rez" symbolId="JsonData" type="module"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435485" name="getApp" startPc="268435460">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435509" name="&lt;init&gt;" parent="Rez" startPc="268435486">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435528" name="&lt;init&gt;" parent="WBSLDC_MissingWearableView" startPc="268435510">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="WBSLDC_MissingWearableView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435572" name="onLayout" parent="WBSLDC_MissingWearableView" startPc="268435529">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435593" name="initialize" parent="WBSLDC_MissingWearableView" startPc="268435573">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="WBSLDC_MissingWearableView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435616" name="onUpdate" parent="WBSLDC_MissingWearableView" startPc="268435594">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435635" name="&lt;init&gt;" parent="WBSLDC_App" startPc="268435617">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435638" name="onStart" parent="WBSLDC_App" startPc="268435636">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435681" name="getInitialView" parent="WBSLDC_App" startPc="268435639">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435702" name="initialize" parent="WBSLDC_App" startPc="268435682">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435705" name="onStop" parent="WBSLDC_App" startPc="268435703">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435888" name="WaitingTransmissionLayout" parent="Layouts" startPc="268435706">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436071" name="MissingDeviceLayout" parent="Layouts" startPc="268435889">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>
