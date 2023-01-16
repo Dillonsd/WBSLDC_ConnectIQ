@@ -1,0 +1,151 @@
+[ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_View.mc"; @line = 1; ]
+import Toybox.Graphics;
+[ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_View.mc"; @line = 2; ]
+import Toybox.WatchUi;
+[ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_View.mc"; @line = 4; ]
+class WBSLDC_View extends WatchUi.View{
+    [ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_View.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_View.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_View.mc"; @line = 6; @position = 14; ]
+    private
+    var _data;
+    [ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_View.mc"; @line = 7; @position = 14; ]
+    private
+    var _strings;
+    [ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_View.mc"; @line = 8; @position = 14; ]
+    private
+    var _promptLabel;
+    [ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_View.mc"; @line = 10; ]
+    function initialize() as Void {
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_View_mc_10_24_start:
+[ "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_View.mc" 11 4 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_View.mc" 12 4 ]
+        %tmp.7 = getv ? :WBSLDC_Data;
+        %tmp.4 = newc %tmp.7 ();
+        putv self :_data %tmp.4;
+[ "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_View.mc" 13 4 ]
+        %tmp.8 = newa 2;
+        %tmp.9 = getm $.Toybox.WatchUi;
+        %tmp.10 = getv function %tmp.9 :loadResource;
+        %tmp.12 = getv ? :Rez;
+        %tmp.13 = getv %tmp.12 :Strings;
+        %tmp.14 = getv %tmp.13 :NoDevicePrompt;
+        %tmp.15 = invoke %tmp.9 %tmp.10(%tmp.14);
+        %tmp.16 = dup %tmp.8;
+        %tmp.17 = aputv %tmp.16 0 %tmp.15;
+        %tmp.18 = getm $.Toybox.WatchUi;
+        %tmp.19 = getv function %tmp.18 :loadResource;
+        %tmp.21 = getv ? :Rez;
+        %tmp.22 = getv %tmp.21 :Strings;
+        %tmp.23 = getv %tmp.22 :WaitingPrompt;
+        %tmp.24 = invoke %tmp.18 %tmp.19(%tmp.23);
+        %tmp.25 = dup %tmp.17;
+        %tmp.26 = aputv %tmp.25 1 %tmp.24;
+        putv self :_strings %tmp.26;
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_View_mc_10_24_stop:
+    }
+    [ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_View.mc"; @line = 20; ]
+    function onLayout(dc as Dc) as Void {
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_View_mc_20_38_start:
+[ "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_View.mc" 21 4 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        %tmp.4 = getv ? :Rez;
+        %tmp.5 = getv %tmp.4 :Layouts;
+        %tmp.6 = getv function %tmp.5 :MainLayout;
+        %tmp.8 = lgetv %dc;
+        %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
+        invoke %tmp.1 %tmp.2(%tmp.9);
+[ "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_View.mc" 22 4 ]
+        %tmp.10 = self;
+        %tmp.11 = getv function %tmp.10 :findDrawableById;
+        %tmp.12 = "PromptLabel";
+        %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
+        putv self :_promptLabel %tmp.13;
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_View_mc_20_38_stop:
+    }
+    [ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_View.mc"; @line = 28; ]
+    function onShow() as Void {
+    }
+    [ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_View.mc"; @line = 32; ]
+    function onUpdate(dc as Dc) as Void {
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_View_mc_32_38_start:
+[ "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_View.mc" 33 4 ]
+        [ "D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_View_mc_32_38_start" "D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_View_mc_32_38_stop" ]
+        %status.1 = local;
+        %tmp.2 = getv ? :_data;
+        %tmp.3 = getv function %tmp.2 :getStatus;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        lputv %status.1 %tmp.4;
+[ "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_View.mc" 34 4 ]
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_View_mc_34_4_if_stmt:
+        %tmp.6 = lgetv %status.1;
+        %tmp.7 = null;
+        %tmp.8 = eq %tmp.6 %tmp.7;
+        bf %tmp.8 @D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_View_mc_34_4_if_false;
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_View_mc_34_4_if_true:
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_View_mc_34_23_start:
+[ "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_View.mc" 35 6 ]
+        %tmp.10 = getv ? :_promptLabel;
+        %tmp.11 = getv function %tmp.10 :setText;
+        %tmp.13 = getv ? :_strings;
+        %tmp.14 = 0;
+        %tmp.15 = agetv %tmp.13 %tmp.14;
+        invoke %tmp.10 %tmp.11(%tmp.15);
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_View_mc_34_23_stop:
+        goto @D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_View_mc_34_4_if_end;
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_View_mc_34_4_if_false:
+[ "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_View.mc" 36 11 ]
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_View_mc_36_11_if_stmt:
+        %tmp.17 = lgetv %status.1;
+        %tmp.18 = as %tmp.17 { (!Null) };
+        %tmp.19 = not %tmp.18;
+        bf %tmp.19 @D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_View_mc_36_11_if_end;
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_View_mc_36_11_if_true:
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_View_mc_36_24_start:
+[ "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_View.mc" 37 6 ]
+        %tmp.21 = getv ? :_promptLabel;
+        %tmp.22 = getv function %tmp.21 :setText;
+        %tmp.24 = getv ? :_strings;
+        %tmp.25 = 1;
+        %tmp.26 = agetv %tmp.24 %tmp.25;
+        invoke %tmp.21 %tmp.22(%tmp.26);
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_View_mc_36_24_stop:
+        goto @D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_View_mc_36_11_if_end;
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_View_mc_36_11_if_end:
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_View_mc_34_4_if_end:
+[ "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_View.mc" 41 4 ]
+        %tmp.28 = getv ? :View;
+        %tmp.29 = getv function %tmp.28 :onUpdate;
+        %tmp.31 = lgetv %dc;
+        invoke %tmp.28 %tmp.29(%tmp.31);
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_View_mc_32_38_stop:
+    }
+    [ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_View.mc"; @line = 47; ]
+    function onHide() as Void {
+    }
+    [ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_View.mc"; @line = 50; ]
+    public
+    function onTranslation(data) {
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_View_mc_50_38_start:
+[ "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_View.mc" 51 4 ]
+        %tmp.2 = lgetv %data;
+        putv self :_data %tmp.2;
+[ "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_View.mc" 52 4 ]
+        %tmp.3 = getm $.Toybox.WatchUi;
+        %tmp.4 = getv function %tmp.3 :requestUpdate;
+        invoke %tmp.3 %tmp.4();
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_View_mc_50_38_stop:
+    }
+}
+[ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_View.mc"; @line = 1; ]
+<init> {
+}

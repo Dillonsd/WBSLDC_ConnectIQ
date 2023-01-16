@@ -1,5 +1,6 @@
 <strings>
     <string id="AppName">WBSLDC</string>
 
-    <string id="no_device_prompt">Looking for wearable</string>
+    <string id="NoDevicePrompt">Looking for wearable</string>
+    <string id="WaitingPrompt">Waiting for translation</string>
 </strings>

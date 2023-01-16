@@ -1,8 +1,3 @@
-<resources>
-  <layout id="MissingDeviceLayout">
-    <label x="center" y="center" text="@Strings.no_device_prompt" color="Graphics.COLOR_RED" justification="Graphics.TEXT_JUSTIFY_CENTER" />
-  </layout>
-  <layout id="WaitingTransmissionLayout">
-    <label x="center" y="center" text="@Strings.no_device_prompt" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
-  </layout>
-</resources>
+<layout id="MainLayout">
+  <label id="PromptLabel" x="center" y="center" text="@Strings.NoDevicePrompt" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+</layout>

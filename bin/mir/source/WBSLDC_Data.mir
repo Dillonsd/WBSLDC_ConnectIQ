@@ -1,0 +1,59 @@
+[ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_Data.mc"; @line = 1; ]
+class WBSLDC_Data{
+    [ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_Data.mc"; @line = 1; ]
+    <init> {
+    }
+    [ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_Data.mc"; @line = 1; ]
+    static
+    <init> {
+    }
+    [ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_Data.mc"; @line = 2; @position = 14; ]
+    private
+    var _status;
+    [ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_Data.mc"; @line = 3; @position = 14; ]
+    private
+    var _seqNum;
+    [ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_Data.mc"; @line = 4; @position = 14; ]
+    private
+    var _translation;
+    [ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_Data.mc"; @line = 6; ]
+    public
+    function initialize() as Void {
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_Data_mc_6_31_start:
+[ "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_Data.mc" 7 4 ]
+        %tmp.1 = null;
+        putv self :_status %tmp.1;
+[ "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_Data.mc" 8 4 ]
+        %tmp.2 = 0;
+        putv self :_seqNum %tmp.2;
+[ "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_Data.mc" 9 4 ]
+        %tmp.3 = "";
+        putv self :_translation %tmp.3;
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_Data_mc_6_31_stop:
+    }
+    [ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_Data.mc"; @line = 12; ]
+    public
+    function parsePayload(payload) {
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_Data_mc_12_40_start:
+[ "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_Data.mc" 13 4 ]
+        %tmp.2 = lgetv %payload;
+        %tmp.3 = 1;
+        %tmp.4 = agetv %tmp.2 %tmp.3;
+        %tmp.5 = 0x01;
+        %tmp.6 = bitand %tmp.4 %tmp.5;
+        putv self :_status %tmp.6;
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_Data_mc_12_40_stop:
+    }
+    [ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_Data.mc"; @line = 16; ]
+    public
+    function getStatus() {
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_Data_mc_16_30_start:
+[ "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_Data.mc" 17 4 ]
+        %tmp.2 = getv ? :_status;
+        ret %tmp.2;
+D_Projects_WBSLDC_ConnectIQ_source_WBSLDC_Data_mc_16_30_stop:
+    }
+}
+[ @file = "D:\Projects\WBSLDC_ConnectIQ\source\WBSLDC_Data.mc"; @line = 1; ]
+<init> {
+}

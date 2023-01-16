@@ -1,15 +1,25 @@
 import Toybox.Graphics;
 import Toybox.WatchUi;
 
-class WBSLDC_MissingWearableView extends WatchUi.View {
+class WBSLDC_View extends WatchUi.View {
+
+  private var _data;
+  private var _strings;
+  private var _promptLabel;
 
   function initialize() {
     View.initialize();
+    _data = new WBSLDC_Data();
+    _strings = [
+      WatchUi.loadResource(Rez.Strings.NoDevicePrompt),
+      WatchUi.loadResource(Rez.Strings.WaitingPrompt)
+    ];
   }
 
   // Load your resources here
   function onLayout(dc as Dc) as Void {
-    setLayout(Rez.Layouts.MissingDeviceLayout(dc));
+    setLayout(Rez.Layouts.MainLayout(dc));
+    _promptLabel = findDrawableById("PromptLabel");
   }
 
   // Called when this View is brought to the foreground. Restore
@@ -20,6 +30,13 @@ class WBSLDC_MissingWearableView extends WatchUi.View {
 
   // Update the view
   function onUpdate(dc as Dc) as Void {
+    var status = _data.getStatus();
+    if(status == null) {
+      _promptLabel.setText(_strings[0]);
+    } else if (!status) {
+      _promptLabel.setText(_strings[1]);
+    }
+
     // Call the parent onUpdate function to redraw the layout
     View.onUpdate(dc);
   }
@@ -28,6 +45,11 @@ class WBSLDC_MissingWearableView extends WatchUi.View {
   // state of this View here. This includes freeing resources from
   // memory.
   function onHide() as Void {
+  }
+
+  public function onTranslation(data) {
+    _data = data;
+    WatchUi.requestUpdate();
   }
 
 }
