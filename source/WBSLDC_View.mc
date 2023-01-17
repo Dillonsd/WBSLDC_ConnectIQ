@@ -33,8 +33,10 @@ class WBSLDC_View extends WatchUi.View {
     var status = _data.getStatus();
     if(status == null) {
       _promptLabel.setText(_strings[0]);
+      _promptLabel.setColor(Graphics.COLOR_RED);
     } else if (!status) {
       _promptLabel.setText(_strings[1]);
+      _promptLabel.setColor(Graphics.COLOR_WHITE);
     }
 
     // Call the parent onUpdate function to redraw the layout

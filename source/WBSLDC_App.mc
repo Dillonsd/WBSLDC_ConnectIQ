@@ -15,6 +15,7 @@ class WBSLDC_App extends Application.AppBase {
   // onStart() is called on application start up
   function onStart(state as Dictionary?) as Void {
     _channel = new WBSLDC_AntChannel();
+    _channel.setTranslationCallback(method(:onTranslation));
     _channel.open();
   }
 

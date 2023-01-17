@@ -6,9 +6,9 @@
 <entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_View.mc" id="3" lineNum="20" parent="globals/WBSLDC_View" pc="268435479" symbol="onLayout"/>
 <entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_View.mc" id="3" lineNum="21" parent="globals/WBSLDC_View" pc="268435481" symbol="onLayout"/>
 <entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_View.mc" id="3" lineNum="22" parent="globals/WBSLDC_View" pc="268435522" symbol="onLayout"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_View.mc" id="4" lineNum="50" parent="globals/WBSLDC_View" pc="268435547" symbol="onTranslation"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_View.mc" id="4" lineNum="51" parent="globals/WBSLDC_View" pc="268435549" symbol="onTranslation"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_View.mc" id="4" lineNum="52" parent="globals/WBSLDC_View" pc="268435559" symbol="onTranslation"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_View.mc" id="4" lineNum="52" parent="globals/WBSLDC_View" pc="268435547" symbol="onTranslation"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_View.mc" id="4" lineNum="53" parent="globals/WBSLDC_View" pc="268435549" symbol="onTranslation"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_View.mc" id="4" lineNum="54" parent="globals/WBSLDC_View" pc="268435559" symbol="onTranslation"/>
 <entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_View.mc" id="5" lineNum="10" parent="globals/WBSLDC_View" pc="268435576" symbol="initialize"/>
 <entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_View.mc" id="5" lineNum="11" parent="globals/WBSLDC_View" pc="268435578" symbol="initialize"/>
 <entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_View.mc" id="5" lineNum="12" parent="globals/WBSLDC_View" pc="268435596" symbol="initialize"/>
@@ -17,60 +17,63 @@
 <entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_View.mc" id="7" lineNum="33" parent="globals/WBSLDC_View" pc="268435743" symbol="onUpdate"/>
 <entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_View.mc" id="7" lineNum="34" parent="globals/WBSLDC_View" pc="268435762" symbol="onUpdate"/>
 <entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_View.mc" id="7" lineNum="35" parent="globals/WBSLDC_View" pc="268435769" symbol="onUpdate"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_View.mc" id="7" lineNum="36" parent="globals/WBSLDC_View" pc="268435804" symbol="onUpdate"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_View.mc" id="7" lineNum="37" parent="globals/WBSLDC_View" pc="268435810" symbol="onUpdate"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_View.mc" id="7" lineNum="41" parent="globals/WBSLDC_View" pc="268435845" symbol="onUpdate"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="8" lineNum="36" parent="globals" pc="268435866" symbol="getApp"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="8" lineNum="37" parent="globals" pc="268435876" symbol="getApp"/>
-<entry filename="Rez.mc" id="9" lineNum="1" parent="globals/Rez" pc="268435892" symbol="&lt;init&gt;"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="10" lineNum="4" parent="globals/WBSLDC_AntChannel" pc="268435916" symbol="&lt;init&gt;"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="11" lineNum="68" parent="globals/WBSLDC_AntChannel" pc="268435935" symbol="setTranslationCallback"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="11" lineNum="69" parent="globals/WBSLDC_AntChannel" pc="268435937" symbol="setTranslationCallback"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="12" lineNum="72" parent="globals/WBSLDC_AntChannel" pc="268435948" symbol="processTranslation"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="12" lineNum="73" parent="globals/WBSLDC_AntChannel" pc="268435950" symbol="processTranslation"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="12" lineNum="74" parent="globals/WBSLDC_AntChannel" pc="268435970" symbol="processTranslation"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="13" lineNum="46" parent="globals/WBSLDC_AntChannel" pc="268435997" symbol="onMessage"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="13" lineNum="48" parent="globals/WBSLDC_AntChannel" pc="268436001" symbol="onMessage"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="13" lineNum="50" parent="globals/WBSLDC_AntChannel" pc="268436014" symbol="onMessage"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="13" lineNum="51" parent="globals/WBSLDC_AntChannel" pc="268436031" symbol="onMessage"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="13" lineNum="53" parent="globals/WBSLDC_AntChannel" pc="268436042" symbol="onMessage"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="13" lineNum="61" parent="globals/WBSLDC_AntChannel" pc="268436176" symbol="onMessage"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="13" lineNum="62" parent="globals/WBSLDC_AntChannel" pc="268436202" symbol="onMessage"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="13" lineNum="64" parent="globals/WBSLDC_AntChannel" pc="268436215" symbol="onMessage"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="14" lineNum="16" parent="globals/WBSLDC_AntChannel" pc="268436233" symbol="initialize"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="14" lineNum="18" parent="globals/WBSLDC_AntChannel" pc="268436235" symbol="initialize"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="14" lineNum="21" parent="globals/WBSLDC_AntChannel" pc="268436279" symbol="initialize"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="14" lineNum="24" parent="globals/WBSLDC_AntChannel" pc="268436321" symbol="initialize"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="14" lineNum="34" parent="globals/WBSLDC_AntChannel" pc="268436570" symbol="initialize"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="14" lineNum="35" parent="globals/WBSLDC_AntChannel" pc="268436596" symbol="initialize"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="14" lineNum="36" parent="globals/WBSLDC_AntChannel" pc="268436630" symbol="initialize"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="15" lineNum="39" parent="globals/WBSLDC_AntChannel" pc="268436641" symbol="open"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="15" lineNum="41" parent="globals/WBSLDC_AntChannel" pc="268436643" symbol="open"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="15" lineNum="42" parent="globals/WBSLDC_AntChannel" pc="268436661" symbol="open"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="15" lineNum="43" parent="globals/WBSLDC_AntChannel" pc="268436671" symbol="open"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="16" lineNum="5" parent="globals/WBSLDC_App" pc="268436674" symbol="&lt;init&gt;"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="17" lineNum="16" parent="globals/WBSLDC_App" pc="268436693" symbol="onStart"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="17" lineNum="17" parent="globals/WBSLDC_App" pc="268436695" symbol="onStart"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="17" lineNum="18" parent="globals/WBSLDC_App" pc="268436729" symbol="onStart"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="18" lineNum="26" parent="globals/WBSLDC_App" pc="268436748" symbol="getInitialView"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="18" lineNum="27" parent="globals/WBSLDC_App" pc="268436750" symbol="getInitialView"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="19" lineNum="30" parent="globals/WBSLDC_App" pc="268436773" symbol="onTranslation"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="19" lineNum="31" parent="globals/WBSLDC_App" pc="268436775" symbol="onTranslation"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="20" lineNum="10" parent="globals/WBSLDC_App" pc="268436796" symbol="initialize"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="20" lineNum="11" parent="globals/WBSLDC_App" pc="268436798" symbol="initialize"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="20" lineNum="12" parent="globals/WBSLDC_App" pc="268436816" symbol="initialize"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="21" lineNum="22" parent="globals/WBSLDC_App" pc="268436851" symbol="onStop"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_Data.mc" id="22" lineNum="12" parent="globals/WBSLDC_Data" pc="268436854" symbol="parsePayload"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_Data.mc" id="22" lineNum="13" parent="globals/WBSLDC_Data" pc="268436856" symbol="parsePayload"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_Data.mc" id="23" lineNum="6" parent="globals/WBSLDC_Data" pc="268436879" symbol="initialize"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_Data.mc" id="23" lineNum="7" parent="globals/WBSLDC_Data" pc="268436881" symbol="initialize"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_Data.mc" id="23" lineNum="8" parent="globals/WBSLDC_Data" pc="268436890" symbol="initialize"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_Data.mc" id="23" lineNum="9" parent="globals/WBSLDC_Data" pc="268436903" symbol="initialize"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_Data.mc" id="24" lineNum="16" parent="globals/WBSLDC_Data" pc="268436917" symbol="getStatus"/>
-<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_Data.mc" id="24" lineNum="17" parent="globals/WBSLDC_Data" pc="268436919" symbol="getStatus"/>
-<entry filename="Rez.mc" id="25" lineNum="17" parent="globals/Rez/Layouts" pc="268436928" symbol="MainLayout"/>
-<entry filename="Rez.mc" id="25" lineNum="19" parent="globals/Rez/Layouts" pc="268436940" symbol="MainLayout"/>
-<entry filename="Rez.mc" id="25" lineNum="21" parent="globals/Rez/Layouts" pc="268437107" symbol="MainLayout"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_View.mc" id="7" lineNum="36" parent="globals/WBSLDC_View" pc="268435801" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_View.mc" id="7" lineNum="37" parent="globals/WBSLDC_View" pc="268435827" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_View.mc" id="7" lineNum="38" parent="globals/WBSLDC_View" pc="268435833" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_View.mc" id="7" lineNum="39" parent="globals/WBSLDC_View" pc="268435865" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_View.mc" id="7" lineNum="43" parent="globals/WBSLDC_View" pc="268435891" symbol="onUpdate"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="8" lineNum="37" parent="globals" pc="268435912" symbol="getApp"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="8" lineNum="38" parent="globals" pc="268435922" symbol="getApp"/>
+<entry filename="Rez.mc" id="9" lineNum="1" parent="globals/Rez" pc="268435938" symbol="&lt;init&gt;"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="10" lineNum="4" parent="globals/WBSLDC_AntChannel" pc="268435962" symbol="&lt;init&gt;"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="11" lineNum="68" parent="globals/WBSLDC_AntChannel" pc="268435981" symbol="setTranslationCallback"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="11" lineNum="69" parent="globals/WBSLDC_AntChannel" pc="268435983" symbol="setTranslationCallback"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="12" lineNum="72" parent="globals/WBSLDC_AntChannel" pc="268435994" symbol="processTranslation"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="12" lineNum="73" parent="globals/WBSLDC_AntChannel" pc="268435996" symbol="processTranslation"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="12" lineNum="74" parent="globals/WBSLDC_AntChannel" pc="268436016" symbol="processTranslation"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="13" lineNum="46" parent="globals/WBSLDC_AntChannel" pc="268436043" symbol="onMessage"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="13" lineNum="48" parent="globals/WBSLDC_AntChannel" pc="268436047" symbol="onMessage"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="13" lineNum="50" parent="globals/WBSLDC_AntChannel" pc="268436060" symbol="onMessage"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="13" lineNum="51" parent="globals/WBSLDC_AntChannel" pc="268436077" symbol="onMessage"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="13" lineNum="53" parent="globals/WBSLDC_AntChannel" pc="268436088" symbol="onMessage"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="13" lineNum="61" parent="globals/WBSLDC_AntChannel" pc="268436222" symbol="onMessage"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="13" lineNum="62" parent="globals/WBSLDC_AntChannel" pc="268436248" symbol="onMessage"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="13" lineNum="64" parent="globals/WBSLDC_AntChannel" pc="268436261" symbol="onMessage"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="14" lineNum="16" parent="globals/WBSLDC_AntChannel" pc="268436279" symbol="initialize"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="14" lineNum="18" parent="globals/WBSLDC_AntChannel" pc="268436281" symbol="initialize"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="14" lineNum="21" parent="globals/WBSLDC_AntChannel" pc="268436325" symbol="initialize"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="14" lineNum="24" parent="globals/WBSLDC_AntChannel" pc="268436367" symbol="initialize"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="14" lineNum="34" parent="globals/WBSLDC_AntChannel" pc="268436616" symbol="initialize"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="14" lineNum="35" parent="globals/WBSLDC_AntChannel" pc="268436642" symbol="initialize"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="14" lineNum="36" parent="globals/WBSLDC_AntChannel" pc="268436676" symbol="initialize"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="15" lineNum="39" parent="globals/WBSLDC_AntChannel" pc="268436687" symbol="open"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="15" lineNum="41" parent="globals/WBSLDC_AntChannel" pc="268436689" symbol="open"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="15" lineNum="42" parent="globals/WBSLDC_AntChannel" pc="268436707" symbol="open"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_AntChannel.mc" id="15" lineNum="43" parent="globals/WBSLDC_AntChannel" pc="268436717" symbol="open"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="16" lineNum="5" parent="globals/WBSLDC_App" pc="268436720" symbol="&lt;init&gt;"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="17" lineNum="16" parent="globals/WBSLDC_App" pc="268436739" symbol="onStart"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="17" lineNum="17" parent="globals/WBSLDC_App" pc="268436741" symbol="onStart"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="17" lineNum="18" parent="globals/WBSLDC_App" pc="268436775" symbol="onStart"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="17" lineNum="19" parent="globals/WBSLDC_App" pc="268436809" symbol="onStart"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="18" lineNum="27" parent="globals/WBSLDC_App" pc="268436828" symbol="getInitialView"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="18" lineNum="28" parent="globals/WBSLDC_App" pc="268436830" symbol="getInitialView"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="19" lineNum="31" parent="globals/WBSLDC_App" pc="268436853" symbol="onTranslation"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="19" lineNum="32" parent="globals/WBSLDC_App" pc="268436855" symbol="onTranslation"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="20" lineNum="10" parent="globals/WBSLDC_App" pc="268436876" symbol="initialize"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="20" lineNum="11" parent="globals/WBSLDC_App" pc="268436878" symbol="initialize"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="20" lineNum="12" parent="globals/WBSLDC_App" pc="268436896" symbol="initialize"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_App.mc" id="21" lineNum="23" parent="globals/WBSLDC_App" pc="268436931" symbol="onStop"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_Data.mc" id="22" lineNum="12" parent="globals/WBSLDC_Data" pc="268436934" symbol="parsePayload"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_Data.mc" id="22" lineNum="13" parent="globals/WBSLDC_Data" pc="268436936" symbol="parsePayload"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_Data.mc" id="23" lineNum="6" parent="globals/WBSLDC_Data" pc="268436959" symbol="initialize"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_Data.mc" id="23" lineNum="7" parent="globals/WBSLDC_Data" pc="268436961" symbol="initialize"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_Data.mc" id="23" lineNum="8" parent="globals/WBSLDC_Data" pc="268436970" symbol="initialize"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_Data.mc" id="23" lineNum="9" parent="globals/WBSLDC_Data" pc="268436983" symbol="initialize"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_Data.mc" id="24" lineNum="16" parent="globals/WBSLDC_Data" pc="268436997" symbol="getStatus"/>
+<entry filename="D:\\Projects\\WBSLDC_ConnectIQ\\source\\WBSLDC_Data.mc" id="24" lineNum="17" parent="globals/WBSLDC_Data" pc="268436999" symbol="getStatus"/>
+<entry filename="Rez.mc" id="25" lineNum="17" parent="globals/Rez/Layouts" pc="268437008" symbol="MainLayout"/>
+<entry filename="Rez.mc" id="25" lineNum="19" parent="globals/Rez/Layouts" pc="268437020" symbol="MainLayout"/>
+<entry filename="Rez.mc" id="25" lineNum="21" parent="globals/Rez/Layouts" pc="268437187" symbol="MainLayout"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
@@ -153,17 +156,17 @@
 <localVars>
 <entry arg="true" endPc="268435546" name="dc" stackId="1" startPc="268435479"/>
 <entry arg="true" endPc="268435575" name="data" stackId="1" startPc="268435547"/>
-<entry arg="true" endPc="268435865" name="dc" stackId="1" startPc="268435739"/>
-<entry endPc="268435864" name="status" stackId="2" startPc="268435743"/>
-<entry arg="true" endPc="268435947" name="callback" stackId="1" startPc="268435935"/>
-<entry arg="true" endPc="268435996" name="payload" stackId="1" startPc="268435948"/>
-<entry arg="true" endPc="268436232" name="msg" stackId="1" startPc="268435997"/>
-<entry endPc="268436231" name="payload" stackId="2" startPc="268436001"/>
-<entry arg="true" endPc="268436747" name="state" stackId="1" startPc="268436693"/>
-<entry arg="true" endPc="268436795" name="data" stackId="1" startPc="268436773"/>
-<entry arg="true" endPc="268436878" name="payload" stackId="1" startPc="268436854"/>
-<entry arg="true" endPc="268437123" name="dc" stackId="1" startPc="268436928"/>
-<entry endPc="268437123" name="rez_cmp_local_text_PromptLabel" stackId="2" startPc="268436940"/>
+<entry arg="true" endPc="268435911" name="dc" stackId="1" startPc="268435739"/>
+<entry endPc="268435910" name="status" stackId="2" startPc="268435743"/>
+<entry arg="true" endPc="268435993" name="callback" stackId="1" startPc="268435981"/>
+<entry arg="true" endPc="268436042" name="payload" stackId="1" startPc="268435994"/>
+<entry arg="true" endPc="268436278" name="msg" stackId="1" startPc="268436043"/>
+<entry endPc="268436277" name="payload" stackId="2" startPc="268436047"/>
+<entry arg="true" endPc="268436827" name="state" stackId="1" startPc="268436739"/>
+<entry arg="true" endPc="268436875" name="data" stackId="1" startPc="268436853"/>
+<entry arg="true" endPc="268436958" name="payload" stackId="1" startPc="268436934"/>
+<entry arg="true" endPc="268437203" name="dc" stackId="1" startPc="268437008"/>
+<entry endPc="268437203" name="rez_cmp_local_text_PromptLabel" stackId="2" startPc="268437020"/>
 </localVars>
 <annotations>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -206,69 +209,69 @@
 <functionEntry accessMode="public" name="onHide" parent="WBSLDC_View">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435865" name="onUpdate" parent="WBSLDC_View" startPc="268435739">
+<functionEntry accessMode="public" endPc="268435911" name="onUpdate" parent="WBSLDC_View" startPc="268435739">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435891" name="getApp" startPc="268435866">
+<functionEntry accessMode="public" endPc="268435937" name="getApp" startPc="268435912">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435915" name="&lt;init&gt;" parent="Rez" startPc="268435892">
+<functionEntry accessMode="public" endPc="268435961" name="&lt;init&gt;" parent="Rez" startPc="268435938">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435934" name="&lt;init&gt;" parent="WBSLDC_AntChannel" startPc="268435916">
+<functionEntry accessMode="public" endPc="268435980" name="&lt;init&gt;" parent="WBSLDC_AntChannel" startPc="268435962">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435947" name="setTranslationCallback" parent="WBSLDC_AntChannel" startPc="268435935">
+<functionEntry accessMode="public" endPc="268435993" name="setTranslationCallback" parent="WBSLDC_AntChannel" startPc="268435981">
 <param id="callback"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435996" name="processTranslation" parent="WBSLDC_AntChannel" startPc="268435948">
+<functionEntry accessMode="public" endPc="268436042" name="processTranslation" parent="WBSLDC_AntChannel" startPc="268435994">
 <param id="payload"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436232" name="onMessage" parent="WBSLDC_AntChannel" startPc="268435997">
+<functionEntry accessMode="public" endPc="268436278" name="onMessage" parent="WBSLDC_AntChannel" startPc="268436043">
 <param id="msg"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436640" name="initialize" parent="WBSLDC_AntChannel" startPc="268436233">
+<functionEntry accessMode="public" endPc="268436686" name="initialize" parent="WBSLDC_AntChannel" startPc="268436279">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436673" name="open" parent="WBSLDC_AntChannel" startPc="268436641">
+<functionEntry accessMode="public" endPc="268436719" name="open" parent="WBSLDC_AntChannel" startPc="268436687">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436692" name="&lt;init&gt;" parent="WBSLDC_App" startPc="268436674">
+<functionEntry accessMode="public" endPc="268436738" name="&lt;init&gt;" parent="WBSLDC_App" startPc="268436720">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436747" name="onStart" parent="WBSLDC_App" startPc="268436693">
+<functionEntry accessMode="public" endPc="268436827" name="onStart" parent="WBSLDC_App" startPc="268436739">
 <param id="state"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436772" name="getInitialView" parent="WBSLDC_App" startPc="268436748">
+<functionEntry accessMode="public" endPc="268436852" name="getInitialView" parent="WBSLDC_App" startPc="268436828">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436795" name="onTranslation" parent="WBSLDC_App" startPc="268436773">
+<functionEntry accessMode="public" endPc="268436875" name="onTranslation" parent="WBSLDC_App" startPc="268436853">
 <param id="data"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436850" name="initialize" parent="WBSLDC_App" startPc="268436796">
+<functionEntry accessMode="public" endPc="268436930" name="initialize" parent="WBSLDC_App" startPc="268436876">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436853" name="onStop" parent="WBSLDC_App" startPc="268436851">
+<functionEntry accessMode="public" endPc="268436933" name="onStop" parent="WBSLDC_App" startPc="268436931">
 <param id="state"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="WBSLDC_Data">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436878" name="parsePayload" parent="WBSLDC_Data" startPc="268436854">
+<functionEntry accessMode="public" endPc="268436958" name="parsePayload" parent="WBSLDC_Data" startPc="268436934">
 <param id="payload"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436916" name="initialize" parent="WBSLDC_Data" startPc="268436879">
+<functionEntry accessMode="public" endPc="268436996" name="initialize" parent="WBSLDC_Data" startPc="268436959">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436927" name="getStatus" parent="WBSLDC_Data" startPc="268436917">
+<functionEntry accessMode="public" endPc="268437007" name="getStatus" parent="WBSLDC_Data" startPc="268436997">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
@@ -289,7 +292,7 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437123" name="MainLayout" parent="Layouts" startPc="268436928">
+<functionEntry accessMode="public" endPc="268437203" name="MainLayout" parent="Layouts" startPc="268437008">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
