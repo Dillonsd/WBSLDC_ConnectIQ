@@ -34,9 +34,12 @@ class WBSLDC_View extends WatchUi.View {
     if(status == null) {
       _promptLabel.setText(_strings[0]);
       _promptLabel.setColor(Graphics.COLOR_RED);
-    } else if (!status) {
+    } else if (status != 1) {
       _promptLabel.setText(_strings[1]);
-      _promptLabel.setColor(Graphics.COLOR_WHITE);
+      _promptLabel.setColor(Graphics.COLOR_YELLOW);
+    } else {
+      _promptLabel.setText(_data.getTranslation());
+      _promptLabel.setColor(Graphics.COLOR_GREEN);
     }
 
     // Call the parent onUpdate function to redraw the layout
@@ -53,5 +56,4 @@ class WBSLDC_View extends WatchUi.View {
     _data = data;
     WatchUi.requestUpdate();
   }
-
 }
