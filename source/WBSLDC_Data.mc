@@ -15,13 +15,13 @@ class WBSLDC_Data {
   }
 
   public function getCharacter(index) {
-    var charArray = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+    //var charArray = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
     if (index == 62) {
       return ' ';
     } else if (index == 63) {
       return null;
     } else if (index < 26) {
-      return charArray[index];
+      return 'A' + index;
     } else {
       System.println("Invalid character");
       return null;
@@ -30,7 +30,7 @@ class WBSLDC_Data {
 
   public function parsePayload(payload) {
     _status = payload[0] & 0x01;
-    var translationArray = [];
+    //var translationArray = [];
     var temp = 0;
     var tempArray = [0, 0, 0, 0, 0, 0, 0, 0, 0];
     temp = ((payload[0] & 0xC0) >> 6) | ((payload[1] & 0x0F) << 2);
